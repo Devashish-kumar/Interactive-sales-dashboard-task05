@@ -1,0 +1,99 @@
+# Data Analytics Internship - Task 5: Interactive Dashboard Design
+# Professional Business Intelligence Dashboard Requirements
+# Minimum Python version: 3.8+
+
+# Core Dashboard Framework
+streamlit>=1.25.0           # Interactive web application framework
+plotly>=5.15.0             # Interactive visualizations and charts
+dash>=2.10.0               # Alternative dashboard framework (optional)
+
+# Data Processing and Analysis
+pandas>=1.5.0              # Data manipulation and analysis
+numpy>=1.21.0              # Numerical computing
+scipy>=1.9.0               # Statistical analysis and computations
+
+# Data Visualization
+matplotlib>=3.5.0          # Static plotting (supporting visualizations)
+seaborn>=0.11.2           # Statistical data visualization
+plotly-express>=0.4.0     # Simplified plotly interface
+
+# Dashboard Styling and Layout
+streamlit-aggrid>=0.3.0   # Enhanced data tables (optional)
+streamlit-elements>=0.1.0  # Advanced UI components (optional)
+
+# Date and Time Handling
+python-dateutil>=2.8.0    # Enhanced date parsing and manipulation
+
+# Performance and Caching
+diskcache>=5.4.0          # Persistent caching (optional)
+
+# Data Export and Import
+openpyxl>=3.0.0           # Excel file handling
+xlsxwriter>=3.0.0         # Excel file creation
+pyarrow>=8.0.0            # Fast columnar data operations
+
+# Optional: Advanced Analytics
+scikit-learn>=1.1.0      # Machine learning for advanced insights (optional)
+
+# Optional: Database Connectivity
+# sqlalchemy>=1.4.0       # Database ORM (uncomment if needed)
+# psycopg2-binary>=2.9.0  # PostgreSQL connector (uncomment if needed)
+# pymongo>=4.0.0          # MongoDB connector (uncomment if needed)
+
+# Development and Testing
+jupyter>=1.0.0            # Notebook development environment
+ipython>=7.0.0            # Enhanced Python shell
+
+# Utility and Helper Libraries
+requests>=2.28.0          # HTTP requests (for API data sources)
+json5>=0.9.0              # JSON parsing with comments
+pyyaml>=6.0               # YAML configuration files
+
+# Optional: Authentication and Security
+# streamlit-authenticator>=0.2.0  # User authentication (uncomment if needed)
+# bcrypt>=4.0.0                   # Password hashing (uncomment if needed)
+
+# Optional: Deployment and Monitoring
+# gunicorn>=20.1.0         # WSGI server for production (uncomment if needed)
+# docker>=6.0.0            # Containerization (uncomment if needed)
+
+# Development Tools (Optional)
+black>=22.0.0             # Code formatting
+flake8>=4.0.0            # Code linting
+pytest>=7.0.0            # Testing framework
+
+# Warning Management
+warnings                  # Built-in Python module
+
+# Core Installation Command (Minimum):
+# pip install streamlit plotly pandas numpy matplotlib seaborn
+
+# Full Installation Command:
+# pip install -r requirements.txt
+
+# Alternative Lightweight Installation:
+# pip install streamlit plotly pandas numpy python-dateutil
+
+# Production Deployment Additional Requirements:
+# For cloud deployment, you might also need:
+# - Cloud provider SDKs (AWS boto3, Google Cloud, Azure)
+# - Monitoring tools (APM, logging)
+# - Security packages (authentication, encryption)
+# - Database drivers (specific to your data source)
+
+# Streamlit Cloud Deployment:
+# Streamlit Cloud automatically installs packages from requirements.txt
+# Ensure all packages are compatible with Python 3.8+
+
+# Docker Deployment Example Requirements:
+# Add these to requirements.txt for containerized deployment:
+# gunicorn>=20.1.0
+# uvicorn>=0.18.0
+
+# Notes:
+# - Streamlit is the primary framework (free alternative to Power BI/Tableau)
+# - Plotly provides interactive visualizations similar to Power BI charts
+# - All packages are open source and free to use
+# - Compatible with Windows, macOS, and Linux
+# - Memory requirement: 2GB+ RAM recommended for smooth performance
+# - Disk space: 500MB+ free space for package installation
